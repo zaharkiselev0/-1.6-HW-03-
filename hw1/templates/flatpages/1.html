@@ -1,0 +1,13 @@
+{% extends 'flatpages/template.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="text-center mt-5">
+        <h1>Главная страница</h1>
+    </div>
+    <h2>О чем эта страница:</h2>
+    <p>{{ flatpage.content }}</p>
+    <h2>Для тех, кто не понял с одного раза, повторяем:</h2>
+    <p>{{ flatpage.content }}</p>
+</div>
+{% endblock content %}
